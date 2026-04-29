@@ -87,7 +87,7 @@ buttons.forEach(button => {
             previousInput = currentInput
             updateDisplay(currentInput)
         }
-        console.log(value)
+        // console.log(value)
     });
 });
 
