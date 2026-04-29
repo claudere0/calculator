@@ -23,10 +23,12 @@ body {
     align-items: center;
     position: relative;
     box-shadow: 0 10px 25px rgba(0,0,0,0.125);
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .screen {
-    font-size: 32px;
+    font-size: 250%;
     height: 20%;
     width: 100%;
     background-color: #7fbf9f;
@@ -61,4 +63,17 @@ body {
     width: 20%;
     background-color: #efefef;
     border:none;
+    border-radius: 8px;
+}
+
+.operator {
+    background-color: #bbb;
+}
+
+.equal {
+    background-color: #7fbf9f;
+}
+
+.clear {
+    background-color: #bbb;
 }
