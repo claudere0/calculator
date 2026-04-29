@@ -26,12 +26,20 @@ body {
 }
 
 .screen {
+    font-size: 32px;
     height: 20%;
     width: 100%;
     background-color: #7fbf9f;
+    outline: none;
+    text-align: right;
+    padding: 3.125%;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.input {
+/* .input {
     font-size: 32px;
     height: 100%;
     width: 100%;
@@ -40,7 +48,7 @@ body {
     text-align: right;
     padding: 3.125%;
     border: none;
-}
+} */
 
 .buttons {
     height: 80%;
